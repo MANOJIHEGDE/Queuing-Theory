@@ -1,0 +1,18 @@
+/* styles.css */
+body {
+    background-color: black;
+    color: white; /* Set the text color to white for better visibility on a black background */
+  }
+  
+  h1 {
+    color: cyan; /* Example of changing the color of the h1 element to cyan */
+  }
+  
+  h2 {
+    color: magenta; /* Example of changing the color of the h2 element to magenta */
+  }
+  
+  footer {
+    color: gray; /* Example of changing the color of the footer text to gray */
+  }
+  

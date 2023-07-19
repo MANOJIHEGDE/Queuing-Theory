@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Queuing Theory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: white;
+            background-color: black;
+        }
+
+        h1 {
+            color:rgb(238, 191, 130);
+            text-align: center;
+            font-size: 50px;
+            font-style: italic;
+         
+            
+        }
+
+         
+  h2 {
+    color: lightskyblue;
+    text-decoration: underline;
+    text-align: center;}
+
+    label {
+            font-size: 25px; /* Increases the size of the text */
+        }
+
+
+        form {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+            size: 25px;
+            font-size: large;
+            transform: scale(1.5);
+            font-size: 25px;
+        }
+        input[type="radio"] + label {
+            font-size: 25px;
+        }
+
+
+        input[type="submit"] {
+            background-color: #008080;
+          
+            margin-right: 5px;
+            color: #fff;
+            border: none;
+            padding: 20px 40px;
+            cursor: pointer;
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+        footer {
+            margin-top: 150px;
+            margin-left: 10px;
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1>Queuing Theory</h1>
+    <h2>Select a method in Kendall's Notation:</h2>
+    <form method="post">
+        <input type="radio" name="method" value="Method 1" required id="method1">
+        <label for="method1">Method 1 <br>(M/M/1:∞/FCFS)</label><br><br>
+
+        <input type="radio" name="method" value="Method 2" required id="method2">
+        <label for="method2">Method 2 <br>(M/M/C:∞/FCFS)</label><br><br>
+
+        <input type="submit" value="Submit"><br><br><br>
+    </form>
+    <footer>
+        <h4>© 2023 Manoj Hegde, All rights reserved.</h4>
+    </footer>
+</body>
+</html>
